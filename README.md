@@ -19,7 +19,7 @@
 - C++17  
 - cpp-httplib
 - picosha2.h
-- SQLite (файл tickets.db)  
+- SQLite 
 - nlohmann/json  
 - HTML + JavaScript  
 - Git + GitHub  
@@ -45,7 +45,7 @@ g++ -std=c++17 main.cpp sqlite3.o -lws2_32 -lpthread -o server.exe
 ./server.exe
 ```
 
-Сервер запускается на порту 8080, автоматически создаёт tickets.db.
+Сервер запускается на порту 8080, автоматически создаёт db.
 Откройте в браузере [http://localhost:8080/](http://localhost:8080/)
 
 ## Старт сервера (через VPS)
